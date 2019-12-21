@@ -1,0 +1,117 @@
+body {
+    margin: 0em;
+    background-image: url(./photos/backgroundpic.jpg);
+}
+#navbar {
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+    background-color: #ffffff;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+  }
+  /*I wrote this shit like a monkey and i have to specify the links for the navbar vs the later use of links in the portfolio body. 100% a better way to do this but I am not there yet.  */
+ul li {
+    float: right;
+    padding-top: 10px;
+  } 
+ul li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    border-right-width: 1px;
+    border-right-style: solid;
+    padding: 5px 16px;
+    margin: 9px 0px;
+    text-decoration: none;
+}
+#rightmost { /*This is just to remove the little vertical line from the last link on the*/
+    border-right-style: none; /*navbar. Probably a stupid way to do that effect.*/
+} 
+li a:hover {
+    background-color: #4aaaa5;
+}
+#namehead {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #4aaaa5;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#background {
+    /* background-image: url(./photos/backgroundpic.jpg); */
+    padding: 1% 0% 8%;
+}
+#contentbox {
+    margin: 25px auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 960px;
+    
+}
+#titlearea {
+    border-bottom-style: solid;
+    border-color: #777777;
+    margin: 15px;
+    padding-bottom: 10px;
+    color: #4aaaa5;
+}
+img {
+    height: 169px;
+    width: 200px;
+    float: left;
+    padding: 0 15px;
+}
+#contentbox p {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.0;
+}
+#moreinfo {
+    clear: both;
+    margin: 15px;
+}
+footer {
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 15px 0 5px;
+    background-color: #666666;
+    color: lightgray;
+    border-top-style: solid;
+    border-width: 5px;
+    border-color: #4aaaa5;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 15px 15px;
+    grid-template-columns: auto auto;
+
+}
+.box {
+    margin: auto;
+    height: 150px;
+    width: 135px;
+    text
+}
+.box a {
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.box b {
+    grid-row-start:  2;
+    grid-row-end: 2;
+}
