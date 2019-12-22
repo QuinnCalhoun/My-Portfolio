@@ -1,0 +1,44 @@
+/* Position>Size>Decoration */
+/* container>element>item */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  article,
+  aside {
+    flex-basis: 100%;
+  }
+  .nav-header {
+      flex: 10;
+      padding: .25em;
+      font-size: 1.9em;
+  }
+  .nav-link {
+      padding: .7em .5em;
+      font-size: 1.3em;
+      box-sizing: border-box;
+      border-style: groove;
+      border-width: .1em;
+      border-color: silver;
+      border-radius: 5px;
+  }
+  aside a {
+      color: black;
+  }
+  
+  
+
+  @media screen and (min-width: 800px) {
+    aside {
+      flex: 2.5;
+    }
+    article {
+      flex: 7.5;
+    }
+  }
