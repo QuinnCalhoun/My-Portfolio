@@ -13,22 +13,26 @@
     <div id="navbar">
         <ul>
             <li id="namehead">Quinn Thomas Calhoun</li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./index.html">About</a></li>
+            <li><a href="./contact.html" target="_blank">Contact</a></li>
+            <li><a href="./portfolio.html" target="_blank">Portfolio</a></li>
+            <li><a href="./index.html" target="_blank">About</a></li>
         </ul>
     </div>
     <div id="background">
         <div id="contentbox">
             <h1 id="titlearea">Contact</h1>
-            <img id="facial" src="./assets/photos/me.jpg" alt="Quinn">
-            <p id="info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tenetur ipsa quasi earum molestias. Deserunt, quisquam odit minus tempore cupiditate atque, neque suscipit similique quod obcaecati, accusantium rem a repellat!<br>
-            </p>
-            <p id="moreinfo">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta esse nobis eos saepe laudantium culpa temporibus? Porro quisquam, quaerat omnis unde, accusantium animi ad harum tenetur explicabo molestiae saepe! Qui.<br><br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sit blanditiis sed! Nesciunt, saepe vel. Eaque voluptatem deserunt eligendi vitae. Odio eius sint explicabo quos, eos necessitatibus perferendis ex? Modi!
-            </p>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                <label for="country">Message</label>
+                <input type="text" id="usermessage" name="usermessage" placeholder="Your message here">             
+                <input type="submit" value="Submit">
+              </form>
+           
         </div>
     </div>
     <footer>Copyright&#9400</footer>
